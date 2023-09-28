@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-/* file allows us to set up google fonts and colours */
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
