@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// the file where we connect our react application to the dom
 
-import './index.css';
+import React from "react";
+import { ReactDOM } from "react";
+
 import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
