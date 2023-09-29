@@ -1,5 +1,10 @@
 .app__navbar {
     width: 100%;
     display: flex;
-    border: 2px solid black;
+    /* space between = everything close to side */
+    /* space around gives more space for content to be balanced for now */
+    justify-content: space-around;
+    align-items: center;
+    /* var = css variable */
+    background: var(--color-black)
 }
