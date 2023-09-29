@@ -21,6 +21,9 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
+// my own imports
+import ichiraku from '../assets/ichiraku.png';
+
 export default {
   bg,
   chef,
@@ -44,4 +47,5 @@ export default {
   sign,
   quote,
   gericht,
+  ichiraku,
 };
