@@ -8,7 +8,19 @@ import './Navbar.css';
 
 const Navbar = () => (
   <nav className="app__navbar">
-    Navbar
+    <div className='app__navbar-logo'>
+        <img src={images.gericht} alt="app logo"/>
+      </div>
+      {/* unordered list */}
+      <ul className = "app_navbar-links">
+        {/* setting font for this paragraph */}
+        <li className="p_opensans"><a href='#home'>Home</a></li>
+        <li className="p_opensans"><a href='#about'>About</a></li>
+        <li className="p_opensans"><a href='#menu'>Menu</a></li>
+        {/* <li className="p_opensans"><a href='#home'>Home</a></li> */}
+        {/* <li className="p_opensans"><a href='#home'>Home</a></li> */}
+
+      </ul>
   </nav>
 );
 
